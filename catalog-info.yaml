@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: stock-market
+  description: A software component for analyzing and tracking stock market data.
+  annotations:
+    github.com/project-slug: ShashankDatt08/Stock-Market
+    jira/project-key: SCRUM
+    jira/label: backstage-component:stock-market
+spec:
+  type: application
+  owner: ICS
+  lifecycle: experimental
